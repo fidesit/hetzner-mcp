@@ -1,5 +1,5 @@
 {
-  "name": "hetzner-mcp",
+  "name": "@fides-it/hetzner-mcp",
   "version": "0.1.0",
   "description": "Production-grade MCP server for all Hetzner APIs: Cloud, Robot (dedicated servers), and DNS",
   "type": "module",
