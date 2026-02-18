@@ -1,0 +1,44 @@
+{
+  "name": "hetzner-mcp",
+  "version": "0.1.0",
+  "description": "Production-grade MCP server for all Hetzner APIs: Cloud, Robot (dedicated servers), and DNS",
+  "type": "module",
+  "main": "dist/index.js",
+  "bin": {
+    "hetzner-mcp": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsx src/index.ts",
+    "start": "node dist/index.js",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "lint": "tsc --noEmit"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "hetzner",
+    "cloud",
+    "robot",
+    "dns",
+    "dedicated-server",
+    "infrastructure",
+    "claude"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.12.0",
+    "zod": "^3.24.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "tsup": "^8.4.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.7.0",
+    "vitest": "^2.1.0"
+  }
+}
