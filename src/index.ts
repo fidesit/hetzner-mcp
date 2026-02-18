@@ -1,4 +1,3 @@
-#!/usr/bin/env node
 /**
  * hetzner-mcp — Production-grade MCP server for Hetzner Cloud, Robot & DNS APIs.
  */
